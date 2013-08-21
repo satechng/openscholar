@@ -1,7 +1,6 @@
 ; Drupal.org MakeFile for OpenScholar
 core = 7.x
 api = 2
-
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc1
 
@@ -110,12 +109,27 @@ projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = 1.1
 projects[facetapi][patch][] = "http://drupal.org/files/2006704-facetapi-er-regroup-2.patch"
 
+; Suspect
+projects[fb_social][subdir] = "contrib"
+;projects[fb_social][version] = 2.0-beta4+1-dev
+projects[fb_social][download][type] = git
+projects[fb_social][download][branch] = 7.x-2.x
+projects[fb_social][download][revision] = cd73e9b
+projects[fb_social][patch][] = "https://raw.github.com/openscholar/comment_sources/a60c0282a1d8a7dbd8d0021c82b73919ada7034b/patches/fb_social.patch"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = 1.0
 ; projects[features][revision] = "c0b054d"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = 2.0-alpha7
+
+; Suspect
+;projects[feeds_xpathparser][subdir] = "contrib"
+;projects[feeds_xpathparser][version] = 1.0-beta3+7-dev
+;projects[feeds_xpathparser][download][type] = git
+;projects[feeds_xpathparser][download][branch] = 7.x-3.x
+;projects[feeds_xpathparser][download][revision] = 5bea17e
 
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = 1.0-beta5
@@ -191,6 +205,16 @@ projects[media][revision] = "c49692b"
 ; projects[media][patch][] = "http://drupal.org/files/issues/1121808-media-resuse-files-by-uri.patch"
 ; projects[media][patch][] = "http://drupal.org/files/media-7.x-2.x-fix-class-array.patch"
 
+; Suspect
+;projects[media_gallery][subdir] = "contrib"
+;projects[media_gallery][download][type] = git
+;projects[media_gallery][download][branch] = 7.x-2.x
+;projects[media_gallery][download][revision] = "f28ffd1a6f5eaa4eb6554643a3db4dd4543923e1"
+;projects[media_gallery][patch][] = "http://drupal.org/files/media_gallery-double_browser-1939186-3.patch"
+;projects[media_gallery][patch][] = "http://drupal.org/files/media_gallery-remove_taxonomy_shenanigans-1686498-9.patch"
+;projects[media_gallery][patch][] = "http://drupal.org/files/media_gallery-rename_field-1940036-3.patch"
+;projects[media_gallery][patch][] = "http://drupal.org/files/media_gallery-lightbox_double_file-1977822-1.patch"
+
 projects[message][subdir] = "contrib"
 projects[message][version] = 1.8
 
@@ -206,9 +230,6 @@ projects[migrate][version] = 2.5
 projects[migrate_extras][patch][] = "http://drupal.org/files/migrate_extras-duplicate_MigrateDestinationOgMembership-1788440-5.patch"
 projects[migrate_extras][subdir] = "contrib"
 projects[migrate_extras][version] = 2.4
-
-projects[mollom][subdir] = "contrib"
-projects[mollom][version] = 2.2
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = 2.2
