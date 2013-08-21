@@ -109,7 +109,6 @@ projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = 1.1
 projects[facetapi][patch][] = "http://drupal.org/files/2006704-facetapi-er-regroup-2.patch"
 
-; Suspect
 projects[fb_social][subdir] = "contrib"
 ;projects[fb_social][version] = 2.0-beta4+1-dev
 projects[fb_social][download][type] = git
@@ -125,11 +124,11 @@ projects[feeds][subdir] = "contrib"
 projects[feeds][version] = 2.0-alpha7
 
 ; Suspect
-;projects[feeds_xpathparser][subdir] = "contrib"
-;projects[feeds_xpathparser][version] = 1.0-beta3+7-dev
-;projects[feeds_xpathparser][download][type] = git
-;projects[feeds_xpathparser][download][branch] = 7.x-3.x
-;projects[feeds_xpathparser][download][revision] = 5bea17e
+projects[feeds_xpathparser][subdir] = "contrib"
+projects[feeds_xpathparser][version] = 1.0-beta3+7-dev
+projects[feeds_xpathparser][download][type] = git
+projects[feeds_xpathparser][download][branch] = 7.x-3.x
+projects[feeds_xpathparser][download][revision] = 5bea17e
 
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = 1.0-beta5
