@@ -91,13 +91,6 @@ projects[entity][patch][] = http://drupal.org/files/entity-file_entity_access-18
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = 1.1
 
-projects[entityreference][subdir] = "contrib"
-;projects[entityreference][version] = 1.0-rc5+11-dev
-projects[entityreference][download][type] = git
-projects[entityreference][download][branch] = 7.x-1.0
-projects[entityreference][download][revision] = 5b1c289
-projects[entityreference][patch][] = "http://drupal.org/files/1802916-er-show-identifier-14.patch"
-
 projects[entityreference_prepopulate][subdir] = "contrib"
 ; projects[entityreference_prepopulate][version] = 1.3
 projects[entityreference_prepopulate][download][type] = git
@@ -115,25 +108,12 @@ projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = 1.1
 projects[facetapi][patch][] = "http://drupal.org/files/2006704-facetapi-er-regroup-2.patch"
 
-projects[fb_social][subdir] = "contrib"
-;projects[fb_social][version] = 2.0-beta4+1-dev
-projects[fb_social][download][type] = git
-projects[fb_social][download][branch] = 7.x-2.x
-projects[fb_social][download][revision] = cd73e9b
-projects[fb_social][patch][] = "https://raw.github.com/openscholar/comment_sources/a60c0282a1d8a7dbd8d0021c82b73919ada7034b/patches/fb_social.patch"
-
 projects[features][subdir] = "contrib"
 projects[features][version] = 1.0
 ; projects[features][revision] = "c0b054d"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = 2.0-alpha7
-
-projects[feeds_xpathparser][subdir] = "contrib"
-;projects[feeds_xpathparser][version] = 1.0-beta3+7-dev
-projects[feeds_xpathparser][download][type] = git
-projects[feeds_xpathparser][download][branch] = 7.x-3.x
-projects[feeds_xpathparser][download][revision] = 5bea17e
 
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = 1.0-beta5
@@ -143,13 +123,6 @@ projects[field_group][version] = 1.1
 
 projects[field_redirection][subdir] = "contrib"
 projects[field_redirection][version] = 2.5
-
-projects[file_entity][subdir] = "contrib"
-projects[file_entity][download][type] = git
-projects[file_entity][download][branch] = 7.x-2.x
-projects[file_entity][download][revision] = 68ab8ed52f9bb993e8f3c541b89420637e440609
-projects[file_entity][patch][] = "http://drupal.org/files/file_entity.1834902-3.dimension_overrides.patch"
-projects[file_entity][patch][] = "https://raw.github.com/openscholar/openscholar/772cc53bad99cd1e88a24fe3f77c6fd26305c0ce/patches/file_entity.private_files_view_filter.patch"
 
 projects[filefield_paths][subdir] = "contrib"
 ;projects[filefield_paths][version] = 1.0-beta3+2-dev
@@ -162,13 +135,6 @@ projects[flag][version] = 2.0
 
 projects[google_feedapi][subdir] = "contrib"
 projects[google_feedapi][version] = 1.0-beta2
-
-projects[hierarchical_taxonomy][subdir] = "contrib"
-projects[hierarchical_taxonomy][download][type] = git
-projects[hierarchical_taxonomy][download][url] = "http://git.drupal.org/project/hierarchical_taxonomy.git"
-projects[hierarchical_taxonomy][download][branch] = 7.x-1.x
-projects[hierarchical_taxonomy][download][revision] = 5bbe344
-projects[hierarchical_taxonomy][patch][] = "https://drupal.org/files/2034713-hs-comaprse-name-2.patch"
 
 projects[imagefield_crop][subdir] = "contrib"
 ;projects[imagefield_crop][version] = 2.0
