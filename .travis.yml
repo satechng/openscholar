@@ -25,6 +25,7 @@ before_script:
   - "mysql -e 'create database drupal;'"
   - pear channel-discover pear.drush.org
   - pear install drush/drush-6.0.0RC4
+  - sudo rm -rd ~/.drush/cache/
   - phpenv rehash
   - bash scripts/setup
   - bash scripts/build
