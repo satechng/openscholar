@@ -365,3 +365,55 @@ projects[wysiwyg][patch][] = "http://drupal.org/files/wysiwyg-table-format.patch
 
 projects[wysiwyg_filter][subdir] = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc2
+
+; Libraries.
+libraries[clippy][type] = "libraries"
+libraries[clippy][download][type] = "file"
+libraries[clippy][download][url] = "https://github.com/mojombo/clippy/archive/master.zip"
+
+libraries[iCalcreator][type] = "libraries"
+libraries[iCalcreator][download][type] = "file"
+libraries[iCalcreator][download][url] = "http://kigkonsult.se/downloads/dl.php?f=iCalcreator-2.16.12"
+
+libraries[colorbox][type] = "libraries"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.4.14.zip"
+
+libraries[jquery.cycle][type] = "libraries"
+libraries[jquery.cycle][download][type] = "file"
+; libraries[jquery.cycle][download][url] = "https://github.com/downloads/malsup/cycle/jquery.cycle.all.2.88.js"
+; get 2.88 blob from github so it keeps default filename.
+libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/c2b85942513801befea2ddf407eb7d2a17e441e8/jquery.cycle.all.js"
+
+libraries[tinymce][type] = "libraries"
+libraries[tinymce][download][type] = "file"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.8.zip"
+
+libraries[spyc][type] = "libraries"
+libraries[spyc][download][type] = "file"
+libraries[spyc][download][url] = "http://spyc.googlecode.com/files/spyc-0.5.zip"
+
+libraries[respondjs][type] = "libraries"
+libraries[respondjs][download][type] = "file"
+libraries[respondjs][download][url] = "https://github.com/scottjehl/Respond/archive/master.zip"
+
+libraries[responsiveslides][type] = "libraries"
+libraries[responsiveslides][download][type] = "file"
+libraries[responsiveslides][download][url] = "https://github.com/viljamis/ResponsiveSlides.js/archive/v1.53.tar.gz"
+libraries[responsiveslides][patch][] = "https://raw.github.com/openscholar/openscholar/c5b00de5f1c79a679446467296ab16ebff6c19e0/patches/responsiveslides-hc_changes.patch"
+
+libraries[flexslider][type] = "libraries"
+libraries[flexslider][download][type] = "file"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/flexslider1.zip"
+
+libraries[twitter-api-php][type] = "libraries"
+libraries[twitter-api-php][download][type] = "file"
+libraries[twitter-api-php][download][url] = "https://github.com/J7mbo/twitter-api-php/archive/master.zip"
+
+libraries[autopager][type] = "libraries"
+libraries[autopager][download][type] = "file"
+libraries[autopager][download][url] = "https://github.com/sagotsky/jquery-autopager/archive/v1.2.zip"
+
+libraries[html5shiv[type] = "libraries"
+libraries[html5shiv][download][type] = "file"
+libraries[html5shiv][download][url] = "http://raw.github.com/aFarkas/html5shiv/master/dist/html5shiv.js"
