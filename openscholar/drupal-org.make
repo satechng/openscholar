@@ -125,7 +125,6 @@ projects[feeds][version] = 2.0-alpha7
 
 ; Suspect
 projects[feeds_xpathparser][subdir] = "contrib"
-projects[feeds_xpathparser][version] = 1.0-beta3+7-dev
 projects[feeds_xpathparser][download][type] = git
 projects[feeds_xpathparser][download][branch] = 7.x-3.x
 projects[feeds_xpathparser][download][revision] = 5bea17e
