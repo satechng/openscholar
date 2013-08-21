@@ -91,6 +91,13 @@ projects[entity][patch][] = http://drupal.org/files/entity-file_entity_access-18
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = 1.1
 
+projects[entityreference][subdir] = "contrib"
+;projects[entityreference][version] = 1.0-rc5+11-dev
+projects[entityreference][download][type] = git
+projects[entityreference][download][branch] = 7.x-1.0
+projects[entityreference][download][revision] = 5b1c289
+projects[entityreference][patch][] = "http://drupal.org/files/1802916-er-show-identifier-14.patch"
+
 projects[entityreference_prepopulate][subdir] = "contrib"
 ; projects[entityreference_prepopulate][version] = 1.3
 projects[entityreference_prepopulate][download][type] = git
@@ -124,6 +131,13 @@ projects[field_group][version] = 1.1
 projects[field_redirection][subdir] = "contrib"
 projects[field_redirection][version] = 2.5
 
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][download][type] = git
+projects[file_entity][download][branch] = 7.x-2.x
+projects[file_entity][download][revision] = 68ab8ed52f9bb993e8f3c541b89420637e440609
+projects[file_entity][patch][] = "http://drupal.org/files/file_entity.1834902-3.dimension_overrides.patch"
+projects[file_entity][patch][] = "https://raw.github.com/openscholar/openscholar/772cc53bad99cd1e88a24fe3f77c6fd26305c0ce/patches/file_entity.private_files_view_filter.patch"
+
 projects[filefield_paths][subdir] = "contrib"
 ;projects[filefield_paths][version] = 1.0-beta3+2-dev
 projects[filefield_paths][download][type] = git
@@ -135,6 +149,13 @@ projects[flag][version] = 2.0
 
 projects[google_feedapi][subdir] = "contrib"
 projects[google_feedapi][version] = 1.0-beta2
+
+projects[hierarchical_taxonomy][subdir] = "contrib"
+projects[hierarchical_taxonomy][download][type] = git
+projects[hierarchical_taxonomy][download][url] = "http://git.drupal.org/project/hierarchical_taxonomy.git"
+projects[hierarchical_taxonomy][download][branch] = 7.x-1.x
+projects[hierarchical_taxonomy][download][revision] = 5bbe344
+projects[hierarchical_taxonomy][patch][] = "https://drupal.org/files/2034713-hs-comaprse-name-2.patch"
 
 projects[imagefield_crop][subdir] = "contrib"
 ;projects[imagefield_crop][version] = 2.0
@@ -174,7 +195,6 @@ projects[media][version] = 2.x-dev
 projects[media][revision] = "c49692b"
 ; projects[media][patch][] = "http://drupal.org/files/issues/1121808-media-resuse-files-by-uri.patch"
 ; projects[media][patch][] = "http://drupal.org/files/media-7.x-2.x-fix-class-array.patch"
-
 
 projects[message][subdir] = "contrib"
 projects[message][version] = 1.8
