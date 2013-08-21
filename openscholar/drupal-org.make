@@ -123,7 +123,6 @@ projects[features][version] = 1.0
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = 2.0-alpha7
 
-; Suspect
 projects[feeds_xpathparser][subdir] = "contrib"
 projects[feeds_xpathparser][download][type] = git
 projects[feeds_xpathparser][download][branch] = 7.x-3.x
@@ -203,7 +202,6 @@ projects[media][revision] = "c49692b"
 ; projects[media][patch][] = "http://drupal.org/files/issues/1121808-media-resuse-files-by-uri.patch"
 ; projects[media][patch][] = "http://drupal.org/files/media-7.x-2.x-fix-class-array.patch"
 
-; Suspect
 projects[media_gallery][subdir] = "contrib"
 projects[media_gallery][version] = 2.x-dev
 projects[media_gallery][download][type] = git
