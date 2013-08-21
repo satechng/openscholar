@@ -214,3 +214,154 @@ projects[migrate_extras][version] = 2.4
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = 2.2
+
+projects[mollom][subdir] = "contrib"
+projects[mollom][version] = 2.2
+
+projects[multiform][subdir] = "contrib"
+projects[multiform][version] = 1.0
+
+projects[nice_menus][patch][] = "http://drupal.org/files/translate-menu-item-1050352-17-v2.1.patch"
+projects[nice_menus][patch][] = "https://raw.github.com/openscholar/openscholar/b0cb4b6b2ee8d0e162c0a35527ca8d4dcbfc490b/patches/nice_menus.fatal_localized_options.patch"
+projects[nice_menus][subdir] = "contrib"
+projects[nice_menus][version] = 2.1
+
+projects[nodeorder][subdir] = "contrib"
+projects[nodeorder][version] = 1.1
+
+projects[oembed][subdir] = "contrib"
+;projects[oembed][version] = 0.x-dev
+projects[oembed][download][type] = git
+projects[oembed][download][branch] = 7.x-0.x
+projects[oembed][download][revision] = "852f97e"
+projects[oembed][patch][] = "http://drupal.org/files/oembed.1811110.upgrade_to_media.patch"
+
+projects[og][subdir] = "contrib"
+projects[og][version] = 2.2
+projects[og][patch][] = "http://drupal.org/files/1981620-er-prepopualte-existing-node-1.patch"
+projects[og][patch][] = "http://drupal.org/files/1982798-og-worker-2.patch"
+
+projects[og_tasks][subdir] = "contrib"
+projects[og_tasks][version] = 1.0
+projects[og_tasks][download][type] = git
+projects[og_tasks][download][url] = "http://git.drupal.org/project/og_tasks.git"
+projects[og_tasks][patch][] = "http://drupal.org/files/port_code_to_og7.x-2_1834076_3.patch"
+projects[og_tasks][patch][] = "http://drupal.org/files/check_spaces_preset-2059881-4.patch"
+projects[og_views][subdir] = "contrib"
+projects[og_views][version] = 1.0
+
+projects[og_vocab][subdir] = "contrib"
+projects[og_vocab][version] = 1.x-dev
+projects[og_vocab][download][type] = git
+projects[og_vocab][download][branch] = 7.x-1.x-dev
+projects[og_vocab][download][revision] = 61a6b9f
+projects[og_vocab][patch][] = "https://drupal.org/files/og-vocab-prevent-old-term-refernce-error.patch"
+
+projects[olark][subdir] = "contrib"
+projects[olark][version] = 1.0-beta1
+projects[olark][patch][] = "http://drupal.org/files/olark-suppress_roles-1984210-1.patch"
+projects[olark][patch][] = "http://drupal.org/files/olark-js-to-d7-update-1785322-5.patch"
+
+projects[pathauto][subdir] = "contrib"
+projects[pathauto][version] = 1.2
+
+projects[pinserver][subdir] = "contrib"
+projects[pinserver][type] = module
+projects[pinserver][download][type] = git
+projects[pinserver][download][url] = "git://github.com/openscholar/pinserver.git"
+;projects[pinserver][tag] = 7.x-3.3
+projects[pinserver][branch] = 7.x-3.x
+; @todo Make tag when QA is finished
+
+projects[purl][subdir] = "contrib"
+;: projects[purl][version] = 1.0-beta1+11-dev
+projects[purl][download][type] = git
+projects[purl][download][branch] = 7.x-1.x
+projects[purl][download][revision] = 469e8668
+projects[purl][patch][] = "http://drupal.org/files/1473502-purl-init-2_0.patch"
+projects[purl][patch][] = "http://drupal.org/files/1982198-purl-cache-set-1.patch"
+projects[purl][patch][] = "http://drupal.org/files/729862-9-purl-inbound-alter-modifies-q.patch"
+
+projects[registration][subdir] = "contrib"
+projects[registration][version] = 1.1
+
+projects[respondjs][subdir] = "contrib"
+projects[respondjs][version] = 1.1
+
+projects[robotstxt][subdir] = "contrib"
+projects[robotstxt][version] = "1.1"
+
+projects[restws][subdir] = "contrib"
+projects[restws][version] = "2.0-alpha3"
+projects[restws][patch][] = "http://drupal.org/files/1806142-restws-property-exception.patch"
+
+projects[shorten][subdir] = "contrib"
+projects[shorten][version] = 1.2
+
+projects[services][subdir] = "contrib"
+;projects[services][version] = 3.3+42-dev
+projects[services][download][branch] = 7.x-3.x
+projects[services][download][revision] = 761e620
+
+projects[services_basic_auth][subdir] = "contrib"
+projects[services_basic_auth][version] = "1.1"
+
+projects[spaces][subdir] = "contrib"
+;projects[spaces][version] = 3.0-alpha1+9-dev
+projects[spaces][revision] = "eac3a7e"
+projects[spaces][patch][] = "http://drupal.org/files/1470434-spaces-og-28.patch"
+projects[spaces][patch][] = "http://drupal.org/files/spaces_ui-show_disabled-1662918-1.patch"
+projects[spaces][download][type] = git
+projects[spaces][download][branch] = 7.x-3.x
+projects[spaces][download][revision] = eac3a7e
+
+projects[stringoverrides][version] = 1.8
+projects[stringoverrides][subdir] = "contrib"
+
+projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = 2.0-rc1
+
+projects[token][subdir] = "contrib"
+projects[token][version] = 1.4
+
+projects[transliteration][subdir] = "contrib"
+projects[transliteration][version] = 3.1
+
+projects[twitter_pull][subdir] = "contrib"
+projects[twitter_pull][version] = 1.0-rc4
+projects[twitter_pull][patch][] = 'http://drupal.org/files/twitter_pull-twitter_api_php-1781024-40.patch'
+
+projects[views][subdir] = "contrib"
+; projects[views][version] = 3.5+29-dev
+projects[views][download][type] = git
+projects[views][download][branch] = 7.x-3.x
+projects[views][download][revision] = 7173513
+
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = 3.0
+
+projects[views_og_cache][subdir] = "contrib"
+projects[views_og_cache][download][type] = git
+projects[views_og_cache][download][branch] = 7.x-1.x-dev
+projects[views_og_cache][download][revision] = 059a845
+
+projects[views_slideshow][subdir] = "contrib"
+projects[views_slideshow][version] = 3.0
+
+projects[views_litepager][subdir] = "contrib"
+projects[views_litepager][version] = 3.0
+projects[views_litepager][patch][] = "http://drupal.org/files/views_litepager-requirements-array-error_1976056-2.patch"
+projects[views_litepager][patch][] = "http://drupal.org/files/views_litepager-off_by_one-2006992-1.patch"
+
+projects[views_infinite_scroll][subdir] = "contrib"
+projects[views_infinite_scroll][version] = 1.1
+;projects[views_infinite_scroll][patch][] = "http://drupal.org/files/views_infinite_scroll-vbo-1965288-2.patch"
+;projects[views_infinite_scroll][patch][] = "http://localhost/patch/views_infinite_scroll-no_auto_scroll-2012910-1.patch"
+
+projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][version] = 2.2
+projects[wysiwyg][patch][] = "http://drupal.org/files/wysiwyg-remove-breaks-1964806-2.patch"
+projects[wysiwyg][patch][] = "http://drupal.org/files/wysiwyg-table-format.patch"
+
+projects[wysiwyg_filter][subdir] = "contrib"
+projects[wysiwyg_filter][version] = 1.6-rc2
