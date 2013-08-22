@@ -1,6 +1,7 @@
 ; Drupal.org MakeFile for OpenScholar
 core = 7.x
 api = 2
+
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc1
 
@@ -203,7 +204,6 @@ projects[media][revision] = "c49692b"
 ; projects[media][patch][] = "http://drupal.org/files/media-7.x-2.x-fix-class-array.patch"
 
 projects[media_gallery][subdir] = "contrib"
-projects[media_gallery][version] = 2.x-dev
 projects[media_gallery][download][type] = git
 projects[media_gallery][download][branch] = 7.x-2.x
 projects[media_gallery][download][revision] = "f28ffd1a6f5eaa4eb6554643a3db4dd4543923e1"
