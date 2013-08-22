@@ -53,7 +53,7 @@ cd $ROOT
   # Download the git wrapper library using the composer.
   # todo: don't do it on Travis-CI.
   curl -s https://getcomposer.org/installer | php
-  php composer.phar install
+  php composer.phar install self-update
   cd ..
 )
 
